@@ -1,0 +1,159 @@
+
+
+body {
+  font-size: 15px;
+  text-align: center;
+  font-family: Arial;
+
+  header {
+    background-color: darkgray;
+    display: inline-block;
+    text-align: center;
+    width: 98.5%;
+    border: 1px solid black;
+    margin: 5px 5px 5px 5px;
+    padding: 10px 0px;
+
+    nav {
+      background-color: lightgray;
+      text-align: center;
+      width: 90%;
+      border: 1px solid black;
+      margin: 5px 5px 5px 5px;
+      padding: 10px 0px;
+    }
+  }
+  #left-section{
+    background-color: darkgray;
+    float: left;
+    width: 19%;
+    border: 1px solid black;
+    margin: 0px 5px 0px 2px;
+    padding: 0px 0px 25px 0px;
+
+    header {
+      background-color: lightgray;
+      text-align: center;
+      width: 90%;
+      border: 1px solid black;
+      margin: 5px 5px 5px 5px;
+      padding: 10px 0px;
+    }
+    nav {
+      background-color: lightgray;
+      text-align: center;
+      width: 90%;
+      border: 1px solid black;
+      margin: 5px 5px 10px 5px;
+      padding: 175px 0px;
+    }
+    footer {
+      background-color: lightgray;
+      text-align: center;
+      width: 90%;
+      border: 1px solid black;
+      padding: 10px 0px;
+    }
+  }
+  #right-section {
+    background-color: darkgray;
+    text-align: center;
+    float: right;
+    width: 78%;
+    border: 1px solid black;
+    margin: 0px 5px 0px 0px;
+    padding: 0px 0px 25px 0px;
+
+    header {
+      background-color: lightgray;
+      width: 90%;
+      border: 1px solid black;
+      margin: 5px 5px 5px 5px;
+      padding: 10px 0;
+    }
+    article {
+      &:first-child {
+        background-color: grey;
+        text-align: center;
+        border: 1px solid black;
+        margin: 5px 5px 5px 5px;
+        padding: 10px 0;
+
+        header {
+          background-color: lightgray;
+          border: 1px solid black;
+          margin: 5px 5px 5px 5px;
+          padding: 10px 0;
+        }
+        p {
+          background-color: lightgray;
+          text-align: center;
+          border: 1px solid black;
+          margin: 5px 5px 5px 5px;
+          padding: 10px 0;
+        }
+        footer {
+          background-color: lightgray;
+          border: 1px solid black;
+          margin: 5px 5px 5px 5px;
+          padding: 10px 0;
+        }
+      }
+      &:last-child {
+        display: inline-block;
+        background-color: grey;
+        text-align: center;
+        width: 90%;
+        border: 1px solid black;
+        margin: 5px 5px 5px 5px;
+        padding: 10px 0;
+
+        header {
+          background-color: lightgray;
+          text-align: center;
+          width: 90%;
+          border: 1px solid black;
+          margin: 5px 5px 5px 5px;
+          padding: 10px 0px;
+        }
+        p {
+          background-color: lightgray;
+          text-align: center;
+          width: 49%;
+          border: 1px solid black;
+          margin: 5px 0px 5px 18px;
+          padding: 30px 15px;
+          float: left;
+        }
+        aside {
+          background-color: lightgray;
+          display: inline;
+          text-align: center;
+          width: 20%;
+          border: 1px solid black;
+          margin: 5px 18px 5px 0px;
+          padding: 30px 15px;
+          float: right;
+        }
+        footer {
+          display: inline-block;
+          background-color: lightgray;
+          text-align: center;
+          width: 90%;
+          border: 1px solid black;
+          margin: 5px 5px 5px 5px;
+          padding: 10px 0px;
+        }
+      }
+    }
+  }
+  footer {
+    text-align: center;
+    background-color: darkgray;
+    display: inline-block;
+    width: 99.5%;
+    border: 1px solid black;
+    margin: 5px 5px 5px 5px;
+    padding: 10px 0px;
+  }
+}
